@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(yewah.jpg);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.container {
+    width: 80%;
+    max-width: 500px; /* Maksimal lebar kontainer */
+    margin: 0 auto;
+    background-color: rgb(136, 135, 135);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255,255,255, 0.5); /* Border 5px dengan warna hijau */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 2px solid #d8e5d9; /* Border untuk foto */
+}
+
+h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #e2e2e2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #e2e2e2; /* Garis atas footer */
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #2f332f; /* Warna link */
+    font-size: 24;}
